@@ -12,10 +12,11 @@ DESCRIPTION: This program converts temperature from celsius to fahrenheit. It ta
 #include <stdio.h>
 #include <string.h>
 
-/*rounding up the max to 5*/
+
 int upperMultOfFive(int);
 void convertFtoC(int);
 
+/*rounding up the max to 5*/
 int upperMultOfFive(int num){
     if((num%5)==0){
         num = num;
